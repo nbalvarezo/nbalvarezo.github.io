@@ -1,4 +1,4 @@
 
-function hello(){
+function enContruccion(){
  alert("Sitio en construcción");
 }
