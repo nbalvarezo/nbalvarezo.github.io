@@ -1,4 +1,4 @@
 
 function hello(){
- alert("Te amo Nena");
+ alert("hello");
 }
