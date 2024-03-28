@@ -13,4 +13,5 @@ body {
 .col {
     border: 1px;
     border-color: red;
+    text-align: center;
 }
