@@ -5,6 +5,12 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #a7acb1 !important;
+    color: #6b6e70 !important;
     background-color: #141414 !important;
+
+}
+
+.col {
+    border: 1px;
+    border-color: red;
 }
