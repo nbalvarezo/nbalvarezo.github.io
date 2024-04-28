@@ -39,4 +39,4 @@ function createHeader() {
 }
 
 // Llama a la función createHeader y agrega el HTML generado al cuerpo del documento
-document.body.innerHTML = createHeader();
+// document.body.innerHTML = createHeader();
