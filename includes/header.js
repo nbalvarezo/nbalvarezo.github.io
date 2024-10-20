@@ -12,7 +12,7 @@ function createHeader() {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="curriculum.html">Currículum</a>
@@ -34,9 +34,9 @@ function createHeader() {
                 </form> -->
             </div>
     </div>
-</nav>
-    `
-    return navbar.toString();
+</nav>`;
+
+    document.body.innerHTML = navbar;
 }
 
 // Llama a la función createHeader y agrega el HTML generado al cuerpo del documento
