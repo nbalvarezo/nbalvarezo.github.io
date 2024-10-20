@@ -1,7 +1,7 @@
 // Define una función para crear el header
 function createHeader() {
     return `
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://www.linkedin.com/in/nicolasbastianalvarezolavarria/"> > Nicolás Álvarez</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
