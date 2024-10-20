@@ -1,6 +1,6 @@
 // Define una función para crear el header
 function createHeader() {
-    return `
+    const navbar = `
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://www.linkedin.com/in/nicolasbastianalvarezolavarria/"> > Nicolás Álvarez</a>
@@ -35,7 +35,8 @@ function createHeader() {
             </div>
     </div>
 </nav>
-    `;
+    `
+    return navbar.toString();
 }
 
 // Llama a la función createHeader y agrega el HTML generado al cuerpo del documento
