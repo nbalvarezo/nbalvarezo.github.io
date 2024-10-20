@@ -1,5 +1,5 @@
 // Define una función para crear el header
-function createHeader() {
+function createNavbar() {
     const navbar = `
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
