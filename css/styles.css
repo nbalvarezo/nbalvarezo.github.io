@@ -27,7 +27,7 @@ body {
 h1 {
     font-family: monospace;
     display: inline-block;
-    border-right: 5px solid green; /* Cursor */
+    border-right: 5px solid #00ff99; /* Cursor */
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(12, end), blink .75s step-end infinite;
@@ -40,7 +40,7 @@ h1 {
 
 @keyframes blink {
     from, to { border-color: transparent }
-    50% { border-color: green }
+    50% { border-color: #00ff99 }
 }
 
 .dev-message {
